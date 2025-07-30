@@ -3,7 +3,7 @@ name: XML Converter and FTP Upload
 on:
   schedule:
     # 6 saatte bir çalıştır (UTC zamanı)
-    - cron: '*/5 * * * *'
+    - cron: '0 */6 * * * '
   workflow_dispatch: # Manuel çalıştırma için
 
 jobs:
